@@ -1,0 +1,17 @@
+colorama
+requests
+tzlocal
+json
+webbrowser
+time
+subprocess
+base64
+faker
+uuid
+os
+qrcode
+random
+schedule
+googletrans
+ctypes
+re
