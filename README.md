@@ -5,6 +5,11 @@ Xelestia is a Python project that provides a collection of tools and functionali
 
 ## Getting Started
 
-You can install these dependencies using the following command:
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/tnaeso/Xelestia.git```
+
+2.Install all packages using the following command:
 ```bash
 pip install -r requirements.txt
