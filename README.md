@@ -13,5 +13,6 @@ git clone https://github.com/tnaeso/Xelestia.git
 ```
 
 2. Install all packages using the following command:
-   ```bash
-   pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
