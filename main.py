@@ -202,7 +202,7 @@ def main():
       [4] - Check's if a ip address is valid.
       [5] - Changes a certain Webhook's name.
       [6] - Changes a certain Webhook's avatar.
-      [7] - Join Discord Server.
+      [7] - Joins Discord Server.
       [8] - Generate Random Password.
       [9] - IP Geolocation Lookup.
       [10] - Generates Fake Information.
@@ -211,7 +211,6 @@ def main():
       [13] - Translates Text To English.
       [14] - Schedules A Messsage To Send To A Certain Webhook In A Set Amount Of Minutes.
       [15] - Analyzes Webhook Activity."""
-    webhook_logs = []
     print(Fore.LIGHTRED_EX+creator)
     print(Fore.LIGHTRED_EX+options)
     option = input(f'\n{Fore.LIGHTCYAN_EX}#═╦═» {os.getlogin()}@Xelestia\n  ╚═» {Fore.GREEN}$ ')
@@ -360,7 +359,7 @@ def main():
     elif option == "7":
       try:
             timed = datetime.datetime.now(local_timezone).strftime('%Y-%m-%d %H:%M:%S %Z')
-            timeoption = timed + " Option [7] Selected - Join Discord Server. \n"
+            timeoption = timed + " Option [7] Selected - Joins Discord Server. \n"
             with open('logs.txt', 'a') as f:
                 f.write(timeoption)
             webbrowser.open('https://discord.gg/4PBMAPP6BA')
