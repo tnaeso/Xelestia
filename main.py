@@ -156,7 +156,7 @@ def send_to_webhook(url, amount, message):
         for i in range(amount):
             data = {'content': message}
             send = requests.post(url, json=data)
-            time.sleep(0.7)
+            time.sleep(1.6)
             if send.status_code == 204:
                 print(Fore.LIGHTMAGENTA_EX + f"#{i + 1} Message sent.")
             else:
